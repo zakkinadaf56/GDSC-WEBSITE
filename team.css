@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.5s;
+}
+
+li {
+    list-style: none;
+}
+
+:root {
+    --white: #FFF;
+    --blue: #562BF7;
+    --light: #F5F5F5;
+    --light-blue: #F3F0FF;
+    --grey: #eee;
+    --dark-grey: #666;
+    --black: #222;
+}
+
+body {
+    background: var(--light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    background: var(--white);
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, .05);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 12%;
+}
+
+
+
+.indicator {
+    padding: 1.5rem 0;
+    border-right: 1px solid var(--grey);
+}
+
+.indicator li {
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    grid-gap: .5rem;
+    padding: 10px 2rem;
+    cursor: pointer;
+    font-size: .875rem;
+    color: var(--black);
+    border-right: 3px solid transparent;
+}
+
+.indicator li i {
+    font-size: 2rem;
+}
+
+.indicator li:hover {
+    background: var(--light-blue);
+}
+
+.indicator li.active {
+    border-right-color: var(--blue);
+    color: var(--blue);
+    background: var(--light-blue);
+}
+
+.content {
+    padding: 1.5rem 7rem;
+}
+
+.content li {
+    display: none;
+}
+
+.content li.active {
+    display: block;
+}
+
+.content li h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--black);
+    margin-bottom: .75rem;
+}
+
+.content li p {
+    margin-bottom: .5rem;
+    color: var(--dark-grey);
+    font-size: .875rem;
+}
+
+
+
+h1 {
+    text-align: center;
+    color: #222;
+    padding-top: 20px;
+}
+
+#head {
+    text-align: left;
+    color: #222;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+h2 {
+    color: #222;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.container2 {
+    width: auto;
+    height: auto;
+    /* padding-right: 135px; */
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.container1 {
+    width: auto;
+    height: auto;
+    /* padding-right: 60px; */
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+    width: 300px;
+    height: 450px;
+    background: transparent;
+    border-radius: 10px;
+    margin-top: 40px;
+    /* margin-left: 20px;
+        margin-right: 20px; */
+    position: relative;
+    float: left;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 20px 1px #9592927a;
+}
+
+.bg {
+    width: 90%;
+    transform: rotate(90deg);
+    margin-left: 15px;
+}
+
+.one {
+    width: 87%;
+    position: absolute;
+    top: 3px;
+    left: 20px;
+}
+
+
+
+.card:hover .bg {
+    transform: rotate(180deg);
+}
+
+.card:hover #lead {
+    transform: rotate(180deg);
+}
+
+.card h3 {
+    text-align: center;
+    color: #222;
+    cursor: pointer;
+}
+
+.card h4 {
+    text-align: center;
+    color: grey;
+    font-weight: 500;
+}
+
+.icon {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.icon ion-icon {
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 8px;
+    cursor: pointer;
+    background: #ffc400;
+    color: #fff;
+    border: 1px solid #ffc400;
+    opacity: 0;
+}
+
+.icon ion-icon:hover {
+    color: grey;
+    border: 1px solid grey;
+    background: transparent;
+}
+
+.card:hover .icon ion-icon {
+    opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .container1 {
+        flex-direction: column;
+        /* padding-left: 50px;
+            padding-right: 50px; */
+
+    }
+
+    .container1 .card {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        /* margin-left: 50px; */
+    }
+
+    .container2 {
+        flex-direction: column;
+
+        /* padding-left: 50px;
+            padding-right: 50px; */
+
+    }
+
+    .container2 .card {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        /* margin-left: 50px; */
+
+    }
+
+    .wrapper {
+        flex-direction: column;
+        margin-right: 0px;
+        justify-content: space-around;
+    }
+
+    .content {
+        padding: 1.5rem 2rem;
+    }
+
+    .indicator {
+        border-right: none;
+    }
+
+}

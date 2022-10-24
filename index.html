@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDSC-AIKTC-2022-20223</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/dsc_logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul class=>
+                    <li><a href="#home">Overview</a></li>
+                    <li><a href="#technologies">Technologies</a></li>
+                    <li><a href="">Leaderboard</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#contactus">Contact us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <br><br>
+            <h2>Google Developer Student Clubs</h2><br>
+            <h1>Anjuman-I-Islam's Kalsekar Technical Campus</h1>
+            <p>Google Developer Student Clubs is a Google Developers<br> program for university students to learn mobile
+                and web development skills , design thinking skills and leadership skills.</p>
+            <a href="" class="hero-btn">Become Member</a>
+        </div>
+    </section>
+
+    <section class="queans">
+        <h1>FAQ's</h1>
+        <div class="row">
+            <div class="cardscol" id="cardscol">
+                <i class="fas fa-rocket ghost-blue"></i>
+                <h3>Concept of Gdsc</h3>
+                <p>The GDSC program is a grassroots channel through which Google provides development
+                    skills,
+                    mobile and web development skills for students, towards employability.</p>
+            </div>
+            <div class="cardscol" id="cardscol1">
+                <i class="fas fa-lightbulb ghost-green"></i>
+                <h3>Why Gdsc</h3>
+                <p>For students to learn development skills, solve problems through technology
+                    and inspire them to be world class developers and changemakers.</p>
+            </div>
+            <div class="cardscol" id="cardscol2">
+                <i class="fas fa-users ghost-red"></i>
+                <h3>Target Audience</h3>
+                <p>GDSC activities are targeted at University students and any others
+                    including faculty members who want to learn development skills &amp; work to solve
+                    real-life
+                    problems.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="oppor">
+        <h3>Opportunities GDSC provide students with</h3>
+        <div class="row">
+            <div class="opporcard">
+                <ul>
+                    <li>Grow their knowledge on developer technologies and more through peer to peer workshops and
+                        events.</li>
+                </ul>
+            </div>
+            <div class="opporcard">
+                <ul id="ul">
+                    <li>Showcase their prototypes and solutions to their local community and industry leaders.</li>
+                </ul>
+            </div>
+            <div class="opporcard">
+                <ul id="ul">
+                    <li>Gain relevant industry experience by solving problems for local organizations with technology
+                        based solutions.</li>
+                </ul>
+            </div>
+            <div class="opporcard">
+                <ul id="ul">
+                    <li>Getting inspiration to become world-class developers and changemakers from sharing others'
+                        success stories.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="tech" id="technologies">
+        <h1>Technologies we're excited about</h1>
+        <p id="techno">Opportunities to learn & access deep technical content.</p>
+
+        <div class="row">
+            <div class="techcol" id="tech">
+                <img src="images/web.png">
+                <div class="layer">
+                    <p>Learn the core foundations of a delightful web experience both for the user and developer. Stay
+                        up to
+                        tabs with emerging and trending technologies. Get access to a guided, tutorial and hands-on
+                        coding
+                        experience.</p>
+                </div>
+                <h3>Web Development</h3>
+                <a href="https://codelabs.developers.google.com/?cat=Web" class="hero-btn" target="_blank"
+                    rel="noreferrer">Codelabs &nbsp; &nbsp;<i class="fas fa-external-link-alt"></i></a>
+            </div>
+            <div class="techcol">
+                <img src="images/android.png">
+                <div class="layer">
+                    <p>Every year Google developers release exciting new updates to the world's most popular operating
+                        system.
+                        We always have sessions to keep you updated and mastering the latest trends in modern Android
+                        development.</p>
+                </div>
+                <h3>Android Development</h3>
+                <a href="https://codelabs.developers.google.com/?cat=Android" class="hero-btn" target="_blank"
+                    rel="noreferrer">Codelabs &nbsp; &nbsp;<i class="fas fa-external-link-alt"></i></a>
+            </div>
+            <div class="techcol">
+                <img src="images/mi.png" id="mi">
+                <div class="layer">
+                    <p>Learn how to drive user engagement and retention with intelligent apps that are able to
+                        effectively
+                        serve
+                        users what they need without the fuss by providing these systems with the ability to
+                        automatically
+                        learn
+                        and improve from experience without being explicitly programmed.</p>
+                </div>
+                <h3>Machine Intelligence</h3>
+                <a href="https://codelabs.developers.google.com/?cat=TensorFlow" class="hero-btn" target="_blank"
+                    rel="noreferrer">Codelabs &nbsp; &nbsp;<i class="fas fa-external-link-alt"></i></a>
+            </div>
+            <div class="techcol">
+                <img src="images/cloud.png">
+                <div class="layer">
+                    <p>For passionate developers who want to stay relevant in a cloud first world where businesses
+                        demand
+                        for
+                        agility and innovation and prompt rise of cloud-native applications to bridges gaps between
+                        data,
+                        insight, and action.</p>
+                </div>
+                <h3>Cloud Computing</h3>
+                <a href="https://codelabs.developers.google.com/?cat=Cloud" class="hero-btn" target="_blank"
+                    rel="noreferrer">Codelabs &nbsp; &nbsp;<i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------<Events-------- -->
+
+    <section id="events">
+        <div class="container">
+            <header class="section-header text-center">
+                <h2 class="section-title wow fadeInUp">Events & Workshops</h2>
+                <p class="section-subtitle">Let's learn, share knowledge and connect with each other.</p>
+            </header>
+            <div class="row align-items-center">
+                <ul class="tabs" align="center" data-aos="fade-up">
+                    <li class="tab-link current" data-tab="tab-1">Ongoing Events</li>
+                    <li class="tab-link" data-tab="tab-2">Past Events</li>
+                </ul>
+                <div id="tab-1" class="tab-content current" data-aos="fade-up" data-aos-delay="200">
+                    <div class="row justify-content-center prj" style="display: flex !important;">
+                        <div class="col-md-4 col-12" id="mb-4">
+                            <div class="card event-card wow fadeInUp" id="mb-4">
+                                <img alt="Event three poster" class="card-img-top" src="images/no-event 1.jpeg">
+                                <div class="card-body">
+                                    <h5 class="card-title">No upcoming event yet</h5>
+
+                                    <table>
+                                        <tr>
+                                            <td width="15%" class="text-blue" id="log"><i class="far fa-calendar-alt"></i></td>
+
+                                            <td>Event Day: &nbsp;&nbsp; coming soon</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-green" id="log"><i class="far fa-clock"></i></td>
+
+                                            <td>--</td>
+                                        </tr>
+                                    </table>
+                                    <br>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <div class="col-md-4 col-12">
+                                    <div class="card event-card wow fadeInUp" style="color: #fff;">
+                                        <img alt="Event three poster" class="card-img-top" src="img/assets/events/flutter.jpeg">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Flutter Festival</h5>
+                                            
+                                            <table>
+                                                <tr>
+                                                    <td width="15%" class="text-blue"><i class="far fa-calendar-alt"></i></td>
+                                                    
+                                                    <td>Event Day: &nbsp;&nbsp; 14<sup>th</sup> February - 30<sup>th</sup> March</td>
+                                                </tr>
+                                                 <tr>
+                                                    <td class="text-green"><i class="far fa-clock"></i></td>
+                                                    
+                                                    <td>--</td>
+                                                </tr> -->
+                        <!-- </table>
+                                            <div class="col-md-6 col-6 mt-3">
+                                                <a href="https://www.youtube.com/playlist?list=PLOl8TbOSTlwBQqqkixKG_7TLuikBn-sFt" class="btn btn-danger" target="_blank">EVENT
+                                                VIDEOS&nbsp;<i class="fas fa-video"></i></a>
+                                                <br>
+                                            </div>
+                                            <br>
+                                            
+                                        </div>
+                                    </div>
+                                </div> -->
+
+                        <!--  <div class="col-md-4 col-12">
+                                    <div class="card event-card wow fadeInUp" style="color: #fff;">
+                                        <img alt="Event three poster" class="card-img-top" src="img/assets/events/reactjs.jpeg">
+                                        <div class="card-body">
+                                            <p class="level beginner float-right">Beginner</p>
+                                            <h5 class="card-title">React.js Workshop For Beginners</h5>
+                                            
+                                            <table>
+                                                <tr>
+                                                    <td width="15%" class="text-blue"><i class="far fa-calendar-alt"></i></td>
+                                                    <td>Event Start Day: &nbsp;&nbsp;4<sup>th</sup> January 2022</td>
+                                                </tr>
+                                                <tr>
+                                                    <td width="15%" class="text-blue"><i class="far fa-calendar-alt"></i></td>
+                                                    <td>Event End Day: &nbsp;&nbsp;9<sup>th</sup> January 2022</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-green"><i class="far fa-clock"></i></td>
+                                                    <td>5:00 PM</td>
+                                                </tr>
+                                            </table>
+                                            <br>
+                                            <a href="https://forms.gle/iPax5rRgKxroUPgt8" target="_blank" class="btn btn-primary float-right">Enroll Here</a>
+                                        </div>
+                                    </div>
+                                </div> -->
+                    </div>
+                </div>
+                <div id="tab-2" class="tab-content" data-aos="fade-up" data-aos-delay="200">
+                    <div class="row  prj" style="display: flex !important;">
+
+                        <div class="col-md-6">
+
+                            <div class="card mb-3" id="mb-4" style="color:#fff;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="images/flutter.jpeg" class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Flutter Festival</h5>
+                                            <p class="card-text">
+
+                                            </p>
+                                            <p class="card-text">
+                                            <div class="row">
+                                                <div class="col-md-6 col-6">
+                                                    <a href="https://www.youtube.com/playlist?list=PLOl8TbOSTlwBQqqkixKG_7TLuikBn-sFt"
+                                                        class="btn btn-danger" target="_blank">EVENT
+                                                        VIDEOS&nbsp;<i class="fas fa-video"></i></a>
+                                                    <br>
+                                                </div>
+
+                                            </div>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="card mb-3" id="mb-4" style="color:#fff;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="images/solutionchallenge.PNG" class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Solution Challenge 2022 Information Session</h5>
+                                            <p class="card-text">
+                                                This was the Informatory Session for the Solution Challenge where the
+                                                audience were introduced What Solution Challenge is? What are the United
+                                                Nations 17 Sustainable Development Goals? Also discussed the Complete
+                                                Solution Challenge 2022 Timeline of Registration, Submission and
+                                                Decision,
+                                                the terms and conditions such as eligibility criteria, how to enter the
+                                                contest, judging criteria, prizes for winners and many more.
+                                            </p>
+                                            <p class="card-text">
+                                            <div class="row">
+                                                <div class="col-md-6 col-6">
+                                                    <a href="https://www.youtube.com/playlist?list=PLOl8TbOSTlwAG8YHq4ZvYxxexCKioS_Gk"
+                                                        class="btn btn-danger" target="_blank">EVENT
+                                                        VIDEOS&nbsp;<i class="fas fa-video"></i></a>
+                                                    <br>
+                                                </div>
+
+                                            </div>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3" id="mb-4" style="color:#fff;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="images/Ui Ux.jpeg" class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Design to Develop</h5>
+                                            <p class="card-text">
+                                                <!-- This was Hands-on Design to Develop Workshop where we create website UI UX Design with Figma and Code the website from design -->
+                                                This was a hands-on Design to Develop Workshop where we created website
+                                                UI/UX Design with Figma and coded the website from the design.
+                                            </p>
+                                            <p class="card-text">
+                                            <div class="row">
+                                                <div class="col-md-6 col-6">
+                                                    <a href="https://www.youtube.com/playlist?list=PLOl8TbOSTlwAIuBnffiqjWTObhTsis_S0"
+                                                        class="btn btn-danger" target="_blank">EVENT
+                                                        VIDEOS&nbsp;<i class="fas fa-video"></i></a>
+                                                    <br>
+                                                </div>
+                                                <div class="col-md-6 col-6">
+                                                    <a href="https://github.com/DSC-Aiktc/Design-to-Develop"
+                                                        class="btn btn-primary" target="_blank">EVENT
+                                                        CODE&nbsp;&nbsp;<i class="fas fa-code"></i></a>
+                                                </div>
+                                            </div>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3" id="mb-4" style="color:#fff;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="images/google_cloud.png" class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">30 Days of Google Cloud</h5>
+                                            <p class="card-text">
+                                                <!-- This was the sessions of 30 Days of Google Cloud. This session will make you aware of Google Cloud and solve your doubts. So make sure you will see this session and will make sure you all enjoy and learn. -->
+                                                This was the session of 30 Days of Google Cloud. This session created
+                                                awareness of Google Cloud and solved doubts.
+                                            </p>
+                                            <p class="card-text">
+                                            <div class="row">
+                                                <div class="col-md-6 col-6">
+                                                    <a href="https://www.youtube.com/playlist?list=PLOl8TbOSTlwBfZwLanlPULfah6USP-jHx"
+                                                        class="btn btn-danger" target="_blank">EVENT
+                                                        VIDEOS&nbsp;<i class="fas fa-video"></i></a>
+                                                    <br>
+                                                </div>
+                                            </div>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3" id="mb-4" style="color:#fff;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="images/Poster.png" class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Inaugration Ceremony 2021</h5>
+                                            <p class="card-text">
+                                                <!-- This was the introductory session of Google Developer Student Club (GDSC). This session will make you aware of our club, our team members, our goals, and moreover wonderful opportunities waiting for you. So make sure you will see this session and will make sure you all enjoy and learn. -->
+                                                This was the introductory session of Google Developer Student Club
+                                                (GDSC).
+                                                This session introduced our club, our team members, our goals, and
+                                                moreover,
+                                                wonderful opportunities waiting for all.
+                                            </p>
+                                            <p class="card-text">
+                                            <div class="row">
+                                                <div class="col-md-6 col-6">
+                                                    <a href="https://www.youtube.com/watch?v=7hogrfiSe2Q"
+                                                        class="btn btn-danger" target="_blank">EVENT
+                                                        VIDEO&nbsp;&nbsp;<i class="fas fa-video"></i></a>
+                                                    <br>
+                                                </div>
+                                            </div>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card mb-3" id="mb-4" style="color:#fff;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="images/reactjs.jpeg" class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">React.js Workshop For Beginners</h5>
+                                            <p class="card-text">
+                                                <!-- This was the sessions of ReactJs. This session will make you aware of ReactJs and solve your doubts along with creating a blog app. So make sure you will see this session and will make sure you all enjoy and learn. -->
+                                                These were the sessions of ReactJS. This session introduced ReactJS to
+                                                beginners and also solved their doubts along with creating a blog app.
+                                            </p>
+                                            <p class="card-text">
+                                            <div class="row">
+                                                <div class="col-md-6 col-6">
+                                                    <a href="https://www.youtube.com/playlist?list=PLOl8TbOSTlwAn8qUO-Q4lENzvk0pwpfte"
+                                                        class="btn btn-danger" target="_blank">EVENT
+                                                        VIDEOS&nbsp;<i class="fas fa-video"></i></a>
+                                                    <br>
+                                                </div>
+                                                <div class="col-md-6 col-6">
+                                                    <a href="https://github.com/DSC-Aiktc/Bloggy-App-React.js-Workshop"
+                                                        class="btn btn-primary" target="_blank">EVENT
+                                                        CODE&nbsp;&nbsp;<i class="fas fa-code"></i></a>
+                                                </div>
+                                            </div>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3" id="mb-4" style="color:#fff;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="images/android.jpeg" class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Android Study Jams</h5>
+                                            <p class="card-text">
+                                                <!-- his was the sessions of Android Study Jams. This session will make you aware of Kotlin and solve your doubts. So make sure you will see this session and will make sure you all enjoy and learn. -->
+                                                These were the sessions of Android Study Jams. These sessions made
+                                                students
+                                                aware of Kotlin and solved their doubts. We made sure that everyone
+                                                enjoyed
+                                                and learned through these sessions. So if you have missed it, do watch
+                                                them
+                                                on our Youtube channel. All the videos and code links are given below.
+                                            </p>
+                                            <p class="card-text">
+                                            <div class="row">
+                                                <div class="col-md-6 col-6">
+                                                    <a href="https://www.youtube.com/playlist?list=PLOl8TbOSTlwC-Kwo50a9wUWeSpnmNPBUk"
+                                                        class="btn btn-danger" target="_blank">EVENT
+                                                        VIDEOS&nbsp;<i class="fas fa-video"></i></a>
+                                                    <br>
+                                                </div>
+                                                <div class="col-md-6 col-6">
+                                                    <a href="https://github.com/DSC-Aiktc/Android-Study-Jam-Kotlin-Workshop"
+                                                        class="btn btn-primary" target="_blank">EVENT
+                                                        CODE&nbsp;&nbsp;<i class="fas fa-code"></i></a>
+                                                </div>
+                                            </div>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3" id="mb-4" style="color:#fff;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="images/hacktober.jpeg" class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Hacktoberfest with Jina AI</h5>
+                                            <p class="card-text">
+                                                <!-- This was the session of Hacktoberfest with Jina AI. This session will make you aware of Hacktoberfest and solve your doubts. So make sure you will see this session and will make sure you all enjoy and learn. -->
+                                                This was the session of Hacktoberfest with Jina AI. This session raised
+                                                awareness of Hacktoberfest and solved doubts.
+                                            </p>
+                                            <p class="card-text">
+                                            <div class="row">
+                                                <div class="col-md-6 col-6">
+                                                    <a href="https://www.youtube.com/watch?v=qd3M4Pzay6E"
+                                                        class="btn btn-danger" target="_blank">EVENT
+                                                        VIDEO&nbsp;&nbsp;<i class="fas fa-video"></i></a>
+                                                    <br>
+                                                </div>
+                                            </div>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3" id="mb-4" style="color:#fff;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="images/workshop1.jpeg" class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Front-End Web Development Workshop</h5>
+                                            <p class="card-text">
+                                                This was a hands-on Front-End Web Development Workshop where we
+                                                discussed<br>
+                                                1. HTML AND CSS<br>
+                                                2. JAVASCRIPT<br>
+                                                3. BUILT PERSONAL PORTFOLIO WEBSITE<br>
+                                                Watch our Workshop YouTube videos if you have missed the workshop.<br>
+                                            </p>
+                                            <p class="card-text">
+                                            <div class="row">
+                                                <div class="col-md-6 col-6">
+                                                    <a href="https://www.youtube.com/playlist?list=PLOl8TbOSTlwDVQb2ZcVDiPLNkW-kg6Mk2"
+                                                        class="btn btn-danger" target="_blank">EVENT
+                                                        VIDEOS&nbsp;<i class="fas fa-video"></i></a>
+                                                    <br>
+                                                </div>
+                                                <div class="col-md-6 col-6">
+                                                    <a href="https://github.com/DSC-Aiktc/3-days-of-frontend-web-development-workshop"
+                                                        class="btn btn-primary" target="_blank">EVENT
+                                                        CODE&nbsp;&nbsp;<i class="fas fa-code"></i></a>
+                                                </div>
+                                            </div>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="row g-0">
+                                            <div class="col-md-12">
+                                                <h5 class="card-title">Top 3 Participants of Workshop</h5>
+                                                <video style="width: 100%; height: auto;" controls>
+                                                    <source src="https://dms.licdn.com/playlist/C4E05AQHMeqaehuMIdQ/mp4-640p-30fp-crf28/0/1633972294079?e=1634317200&v=beta&t=rBVZebyZyCAtUvdYbkG-7hl8048VkQrln_XA8VMDauU" type="video/mp4">
+                                                </video>
+                                            </div>
+                                        </div> -->
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer class="section-spacer footer-section" id="contactus">
+        <div class="container">
+            <div class="row flex-column-reverse flex-sm-row flex-lg-row">
+                <div class="col-md-4 col-12">
+                    <div class="footer-widget first-of-footer-widget" style="color: white;">
+                        <!-- <img src="img/dsc_logo.png" alt="GDSC Anjuman-I-Islam's Kalsekar Technical Campus footer logo"> -->
+                        <p>Copyright &copy
+                            <script type="text/javascript">document.write(new Date().getFullYear());</script>. All
+                            Rights Reserved to <u>GDSC AIKTC</u>.
+                        </p>
+                        <span>Feel free to drop us an email at </span><br>
+                        <a class="mail" href="mailto:dscaiktc@gmail.com">dscaiktc@gmail.com</a>
+                        <ul class="social-list__inline mt-10">
+                            <li>
+                                <a class="twitter" href="https://twitter.com/gdsc_aiktc" target="_blank" rel="noopener">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="insta" href="https://www.instagram.com/gdscaiktc/" target="_blank"
+                                    rel="noopener">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="github" href="https://github.com/DSC-Aiktc" target="_blank" rel="noopener">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="linkedin" href="https://www.linkedin.com/in/dsc-aiktc/" target="_blank"
+                                    rel="noopener">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="youtube" href="https://www.youtube.com/channel/UCv0_S3AGWC8Okl3F8LfCEvw"
+                                    target="_blank" rel="noopener">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-8 col-sm-10">
+                    <div class="row">
+                        <div class="col-md-4 col-6">
+                            <div class="footer-widget" style="color: white;">
+                                <h4 class="footer-widget__title">Programs</h4>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="https://www.womentechmakers.com/" target="_blank"
+                                            rel="noreferrer">Women
+                                            Techmakers</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://developers.google.com/experts/" target="_blank"
+                                            rel="noreferrer">Google
+                                            Developer Experts</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://developers.google.com/programs/community/" target="_blank"
+                                            rel="noreferrer">Google
+                                            Developer Groups</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-6">
+                            <div class="footer-widget" style="color: white;">
+                                <h4 class="footer-widget__title">Developers</h4>
+                                <ul>
+                                    <li class="list-unstyled">
+                                    <li>
+                                        <a href="https://console.firebase.google.com/" target="_blank"
+                                            rel="noreferrer">Firebase
+                                            console</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://console.cloud.google.com/" target="_blank"
+                                            rel="noreferrer">Google
+                                            Cloud Platform</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://console.actions.google.com/" target="_blank"
+                                            rel="noreferrer">Actions
+                                            on Google</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="footer-widget" style="color: white;">
+                                <h4 class="footer-widget__title">Contribute</h4>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="https://github.com/kelvinkamau/vibranium-dark/issues/new"
+                                            target="_blank" rel="noreferrer">File a bug</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/kelvinkamau/Vibranium" target="_blank"
+                                            rel="noreferrer">View
+                                            source</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+        integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.9.3/venobox.min.js"
+        integrity="sha512-zBTnX97k269iewUwROiWwO82A6uXO4lcjq0Z4xnvO+qAblC/RMQRUu8fQVKtSFhPNKD5Xzh9PMoZG7+LnmH1Hg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.card.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"
+        integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"
+        integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+
+</html>
